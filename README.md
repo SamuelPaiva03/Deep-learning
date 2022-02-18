@@ -1,7 +1,7 @@
 # Deep-learning
-Foi utilizado o banco de dados FER - 13, o qual pode ser encontrado no site “https://www.kaggle.com/msambare/fer2013”.
-Apesar de o dataset possuir amostras para sete tipos de expressões faciais, isto é, “raiva, nojo, medo, feliz, neutro, triste e surpreso”, apenas três delas foram utilizadas, a saber “feliz, neutro e triste”.
-A quantidade de amostras por expressão facial estava desequilibrada, e com isso a pasta que possuía muito mais amostras que as demais teve algumas imagens excluídas.
-No total, foram aproximadamente 5000 amostras de treinamento e 1200 amostras de teste para cada uma das três expressões faciais analisadas.
-O desempenho é analisado através da matriz de confusão.
-Após 80 épocas, o valor de acurácia obtido foi 0.8857 e a acurácia de validação foi de 0.7597.
+The FER - 13 database was used, which can be found on the website “https://www.kaggle.com/msambare/fer2013”.
+Although the dataset has samples for seven types of facial expressions, that is, “anger, disgust, fear, happy, neutral, sad and surprised”, only three of them were used, namely “happy, neutral and sad”.
+The amount of samples per facial expression was unbalanced; thus, the folder that had many more samples than the others had some images excluded.
+In total, there were approximately 5000 training samples and 1200 test samples for each of the three analyzed facial expressions.
+Performance is analyzed using the confusion matrix.
+After 80 epochs, the accuracy is 0.8857 and the validation accuracy is 0.7597.
